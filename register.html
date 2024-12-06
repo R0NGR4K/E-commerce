@@ -1,0 +1,80 @@
+<Html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+    <link rel="stylesheet" href="./assets/style/Register form.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Register</h1>
+        <hr>
+        <form>
+            <div class="gender">
+                <span>Gender (optional) :</span>
+                <div class="gender-option">
+                    <input type="radio" name="gender" value="male" /> Male
+                    <input type="radio" name="gender" value="female" /> Female
+                </div>
+            </div>
+            <div class="mains">
+                <div class="form-group">
+                    <label> First name </label>
+                    <input id="rak" type="text" name="First name" />
+                </div>
+                <div class="form-group">
+                    <label> Last name </label>
+                    <input id="rak" type="text" name="last name" />
+                </div>
+            </div>
+
+            <label for="">Phone number:</label>
+            <input id="rak" type="text" name="phone ">
+
+
+            <label for="">Email: </label>
+            <input id="rak" type="email" id="email" name="email" />
+
+            <label for="">Password: </label>
+            <input id="rak" type="Password" id="pass" name="pass">
+            <label for="">Re-type password: </label>
+            <input id="rak" type="Password" id="repass" name="repass">
+
+            <div class="address">
+                <select>
+                    <option value="Cambodian">Cambodian</option>
+                    <option value="English">English</option>
+                </select>
+                <select>
+                    <option value="Cambodian">PhnomPenh</option>
+                    <option value="English">KompongCham</option>
+                </select>
+            </div>
+
+            <button type="submit" id="homeButton"> Register Now </button>
+            <label for="Or">
+                <center>
+                    Or
+                </center>
+            </label>
+            <div class="social-login">
+                <button type="button" class="social-button">
+                    <img src="./assets/image/Google.png" alt="Login With" class="social-icon-google">Login with Google
+                </button>
+                <button type="button" class="social-button">
+                    <img src="./assets/image/Facebook.png" alt="Login With" class="social-icon-facebook">Login with Facebook
+                </button>
+                <p>Already have an account?
+                    <a href="./loin form.html" style="text-decoration: none;">
+                        Login now
+                    </a>
+                </p>
+        </form>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>

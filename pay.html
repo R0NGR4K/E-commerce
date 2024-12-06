@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="./assets/style/pay.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="left-menu">
+                <a href="#" class="nav-item">WALL DECOR</a>
+                <a href="#" class="nav-item">FURNITURES</a>
+                <a href="#" class="nav-item">LAMPS</a>
+            </div>
+            <a href="Home page.html" class="logo">PTES SART</a>
+            <div class="right-menu">
+                <input type="text" class="search-bar" placeholder="Search">
+                <a href="" class="icon">🔔</a>
+                <a href="#" class="icon">❤️</a>
+                <a href="#" class="icon">🛒</a>
+                <a href="loin form.html" class="nav-item">LOGIN</a>
+                <a href="register.html" class="nav-item">REGISTER</a>
+            </div>
+        </nav>
+    </header>
+    <section class="body">
+        <p class="body-text">Delivery address</p>
+        <div class="Delivery-address">
+            <div class="add-address">
+                <button>Add your address ></button><hr>
+                <div class="address-logo"><img src="#" alt="Ptesartlogo"></div>
+                <p><b>Pteasrt Delivery</b></p>
+                <p>delivery within 1-2day</p>
+            </div>
+        </div>
+        <p class="body-text"></p>
+        <div class="My-shopping-cart">
+            <div class="img-shhoping"><img src="#" alt="item"></div>
+            <p>Printable Fall Landscape</p>
+            <p>Set of 3 Split Prints</p>
+            <p>Size: S</p>
+            <p>Quantity: 1</p>
+        </div>
+        <p class="textR">Delivery Address</p>
+        <label class="pay-way">  
+            <div class="Credit-card">
+                <input type="radio" name="choice" value="option1">
+                <div class="credit-card-logo"><img src="#" alt="logo"></div>
+                <p>Credit/Debit Card</p>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="ABA">
+                <input type="radio" name="choice" value="option2">
+                <div class="aba-logo"><img src="#" alt="ABA"></div>
+                <p><b>ABA PAY</b></p>
+                <p>Scan with ABA mobile</p>
+            </div>
+            <div class="ACLEDA">
+                <input type="radio" name="choice" value="Option3">
+                <div class="ac-logo"><img src="#" alt="ACLEDA"></div>
+                <p><b>ACLEDA PAY</b></p>
+                <p>Pay Securely with ACLEDA</p>
+            </div>
+            <div class="Cash-on-delivery">
+                <input type="radio" name="choice" value="Option4">
+                <div class="cash-logo"><img src="#" alt="Cash on delivery"></div>
+                <p><b>Cash on Delivery</b></p>
+                <p>បង់ប្រាក់តាមភ្នាក់ងារដឹកជញ្ជូនសំរាប់តែអ្នកភ្នំពេញ</p>
+            </div>
+        </label>
+        <p class="textR">Preferred Contact Line:</p>
+        <label class="Preferred">
+            <div class="preferred">
+                <div class="Phone-call">
+                    <input type="checkbox" name="choice" value="option1" onclick="selectOnlyOne(this)">
+                    <button><img src="#" class="Phone-logo" alt="Phone">Phone Call</button>
+                </div>
+                <div class="Telegram">
+                    <input type="checkbox" name="choice" value="option1" onclick="selectOnlyOne(this)">
+                    <button><img src="#" class="telegram-logo" alt="Telegram">Telegram</button>
+                </div>
+
+
+            </div>
+            
+        </label>
+
+    </section>
+    <footer class="footer">
+        <div class="footer-payment">
+            <div class="payment-icons">
+                <p class="master"><img src="master1.png"></p>
+                <p class="cisa"><img src="visa.png"></p>
+                <p class="amx"><img src="american express1.png"></p>
+                <p class="paypal"><img src="paypal.png"></p>
+                <p class="khqr"><img src="khqr.png"></p>
+            </div>
+            <div class="container">
+                <div class="footer-section">
+                    <h4>Get in touch</h4>
+                    <p>Russian Conf. Blvd, Phnom Penh, Cambodia.</p>
+                    <p>+855 23 880 370</p>
+                    <p><a href="mailto:wattrak@gmail.com">wathtrak1@gmail.com</a></p>
+                    <p><a href="https://github.com/Wattrak" target="_blank">https://github.com/Wattrak</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Store Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Policies</h4>
+                    <ul>
+                        <li><a href="#">Return & Exchanges</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cancellations</a></li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>© Copyright 2024 all rights reserved. Powered by <a href="#">Ptesartgroup</a></p>
+                <div class="Footer-text">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Store Location</a></li>
+                </div>
+            </div>
+    </footer>
+
+  <script>
+    function selectOnlyOne(checkbox) {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"][name="choice"]');
+      checkboxes.forEach((cb) => {
+        if (cb !== checkbox) {
+          cb.checked = false;
+        }
+      });
+    }
+  </script>
+</body>
+</html>

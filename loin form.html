@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./assets/style/Login form.css">
+</head>
+<body>
+    <div class="main">
+        <h1>PTEAS SART</h1><hr>
+        <h3>login to PTEAS SART's member</h3>
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                <button type="button" id="homeButton">
+                    Login
+                </button> 
+            </div>
+            <div>
+                <span class="password"><a href="#">Forgot password?</a></span>
+            </div>
+            <p style="font-size: 15px;">Or</p>
+            <div class="social-login">
+                <button class="social-button">
+                     <img src="./assets/image/Google.png" alt="Login With" class="social-icon">Login with Google
+                </button>
+                <button class="social-button">
+                    <img src="./assets/image/Facebook.png" alt="Login With" class="social-icon">Login with Facebook
+                </button>
+            </div>
+        </form>
+        
+        <p>Not registered?<br>
+            <a href="./register.html" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
